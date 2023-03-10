@@ -10,15 +10,13 @@
 }
 
 .mc-container{
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 #portfolio .col-sm-6.col-lg-4{
     height: 100px;
 }
 
-/* #about p{
-    text-align: justify;
-} */
 
