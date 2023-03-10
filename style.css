@@ -9,7 +9,16 @@
     background-color: #00c3fe6c;
 }
 
+.mc-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 #portfolio .col-sm-6.col-lg-4{
     height: 100px;
-    
 }
+
+/* #about p{
+    text-align: justify;
+} */
+
