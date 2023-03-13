@@ -1,7 +1,14 @@
+/* General */
 .debug{
     min-height: 50px;
     background-color: #00fc3f3d;
     border: 1px solid #000;
+}
+
+header{
+    background-color: #2C3E50;
+    height: 90px;
+    color: white;
 }
 
 .mc-jumbotron{
@@ -15,8 +22,60 @@
     max-width: 1200px;
 }
 
+.mc-a{
+    text-decoration: none;
+}
+
+/* General */
+
+/* Header */
+
+
+.hamb-menu{
+    font-size: 18px;
+    color:#5A636C;
+    border:1px solid white;
+    padding:6px;
+    border-radius: 4px;
+}
+
+
 #portfolio .col-sm-6.col-lg-4{
     height: 100px;
 }
 
+.btn{
+    margin: 0 auto;
+    
+    border: 1px solid #000;
+}
 
+#location,
+#around,
+#freelancer{
+    display: flex;
+    flex-direction: column;
+}
+
+.mc-form input, .mc-form textarea{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+  
+.mc-form input::placeholder, 
+.mc-form textarea::placeholder{
+    color: #2C3E50;
+}
+  
+.mc-form button{
+    background: #1ABC9C;
+    border: none;
+}
+  
+.mc-form input:focus,
+.mc-form textarea:focus{
+    box-shadow: 0 1px 0 0 rgba(13,110,253,.25);
+}
