@@ -39,7 +39,36 @@ header{
     border-radius: 4px;
 }
 
+/* Jumbotron */
+.mc-jumbotron{
+    color: white;
+    background-color: #1ABC9C;
+}
 
+.image img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.star-lines{
+    margin: 0 auto;
+}
+
+.line{
+    height: 0;
+    width: 10%;
+}
+
+.line.white{
+    border: 1.5px solid white;
+}
+
+.star i{
+    font-size: 25px;
+}
+
+/* Main */
 #portfolio .col-sm-6.col-lg-4{
     height: 100px;
 }
